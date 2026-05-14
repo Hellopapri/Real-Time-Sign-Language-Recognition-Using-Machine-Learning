@@ -1,21 +1,28 @@
 # 🤟 Real-Time Sign Language Recognition Using Machine Learning
 
-A real-time sign language recognition system built using **Machine Learning**, **Computer Vision**, and **Python** to detect hand gestures and convert them into meaningful text in real time.
+A real-time Sign Language Recognition system developed using **Machine Learning**, **Computer Vision**, and **Python** to identify hand gestures through live webcam input and convert them into meaningful text predictions.
 
-This project helps reduce the communication gap between hearing-impaired individuals and others through an intelligent interactive system.
-
+This project is designed to help reduce the communication gap between hearing-impaired individuals and others by providing an intelligent and interactive gesture recognition solution.
 ---
-
 ## 🚀 Features
 
-* Real-time hand gesture detection
-* Machine learning-based sign recognition
-* Live webcam integration
-* Fast and interactive prediction system
-* User-friendly interface
-* Text output for recognized signs
+* Real-time hand gesture recognition
+* Live webcam-based detection
+* Machine learning-powered prediction system
+* Fast and responsive gesture classification
+* Clean and user-friendly web interface
+* Displays prediction confidence score
+* Supports multiple sign gestures
+
 
 ---
+
+## 📸 Project Demo
+
+![Sign Language Detection Demo](HandSign.png)
+
+---
+
 
 ## 🛠️ Technologies Used
 
@@ -24,6 +31,7 @@ This project helps reduce the communication gap between hearing-impaired individ
 * CVZone
 * TensorFlow / Keras
 * NumPy
+* Flask
 * HTML/CSS
 
 ---
@@ -34,38 +42,39 @@ This project helps reduce the communication gap between hearing-impaired individ
 Real-Time-Sign-Language-Recognition-Using-Machine-Learning/
 │
 ├── static/
+├── HandSign.png
+├── README.md
 ├── app.py
 ├── dataCollection.py
 ├── keras_model.h5
 ├── labels.txt
 ├── test.py
-├── versiontest.py
-└── README.md
+└── versiontest.py
 ```
 
 ---
 
 ## ⚙️ Installation
 
-Clone the repository:
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Hellopapri/Real-Time-Sign-Language-Recognition-Using-Machine-Learning.git
 ```
 
-Go to the project directory:
+### Navigate to the Project Directory
 
 ```bash
 cd Real-Time-Sign-Language-Recognition-Using-Machine-Learning
 ```
 
-Install dependencies:
+### Install Required Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application:
+### Run the Application
 
 ```bash
 python app.py
@@ -75,32 +84,20 @@ python app.py
 
 ## 💡 How It Works
 
-1. Webcam captures live hand gestures
+1. The webcam captures live hand gestures
 2. Hand landmarks are detected using computer vision
-3. The trained machine learning model predicts the sign
-4. Predicted sign is displayed as text in real time
-
----
-
-## 📸 Screenshots
-
-Add project screenshots here.
-
-Example:
-
-```markdown
-![Project Screenshot](static/screenshot.png)
-```
+3. The trained machine learning model processes the gesture
+4. The predicted sign is displayed with confidence score in real time
 
 ---
 
 ## 🎯 Future Improvements
 
-* Voice output support
-* More sign language dataset integration
-* Sentence generation
-* Deep learning optimization
-* Mobile application support
+* Add more sign language gestures
+* Improve model accuracy
+* Voice output integration
+* Sentence generation support
+* Mobile application deployment
 
 ---
 
